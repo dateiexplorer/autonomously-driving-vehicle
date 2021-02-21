@@ -1,0 +1,21 @@
+plugins {
+    id 'java-library'
+}
+
+group 'dhbw'
+version null
+
+repositories {
+    mavenCentral()
+}
+
+task build_jar(type: Jar) {
+    project.archivesBaseName = 'lidar_ng'
+
+    manifest {
+        attributes["Main-Class"] = "LidarNG"
+    }
+
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it )} }
+    with jar
+}

@@ -1,0 +1,33 @@
+ 
+# IntelliJ - User specific stuff
+**/.idea/
+*.iml
+*.iws
+*.ipr
+
+# Gradle specific stuff
+**/.gradle/
+**/build/
+
+# Avoid ignoring Gradle wrapper jar file
+!gradle-wrapper.jar
+
+# IntelliJ
+**/out/
+
+# Java specific stuff
+*.class
+
+# Logfile
+*.log
+
+# Package files
+*.jar
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# VisualParadigm specific stuff
+**/*.bak_*
+
