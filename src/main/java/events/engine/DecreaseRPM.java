@@ -12,7 +12,7 @@ public class DecreaseRPM {
 
     @Override
     public String toString() {
-        return "Event: Engine - IncreaseRPM(" + deltaRPM + ", " + seconds + ")";
+        return "Event: Engine - DecreaseRPM(" + deltaRPM + ", " + seconds + ")";
     }
 
     public double getDeltaRPM() {
