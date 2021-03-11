@@ -9,9 +9,6 @@
 **/.gradle/
 **/build/
 
-# Avoid ignoring Gradle wrapper jar file
-!gradle-wrapper.jar
-
 # IntelliJ
 **/out/
 
@@ -27,6 +24,9 @@
 *.tar.gz
 *.rar
 *.7z
+
+# Avoid ignoring Gradle wrapper jar file
+!gradle-wrapper.jar
 
 # VisualParadigm specific stuff
 **/*.bak_*
