@@ -1,2 +1,6 @@
 rootProject.name = 'autonomously-driving-vehicle'
 
+include ':components:camera_v1'
+include ':components:camera_v2'
+include ':components:lidar_ng'
+include ':components:lidar_xt'

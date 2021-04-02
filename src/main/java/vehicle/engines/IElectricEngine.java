@@ -1,8 +1,5 @@
 package vehicle.engines;
 
-import vehicle.IVehicle;
-import vehicle.Vehicle;
-
 public interface IElectricEngine {
 
     int consumption();

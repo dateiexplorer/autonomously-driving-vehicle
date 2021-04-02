@@ -1,9 +1,5 @@
 package vehicle.engines;
 
-import power.battery.Battery;
-import power.battery.Cell;
-import vehicle.Vehicle;
-
 public class EngineNG implements IElectricEngine {
 
     private boolean isOn;
@@ -11,7 +7,7 @@ public class EngineNG implements IElectricEngine {
 
     @Override
     public int consumption() {
-        return 4;
+        return 3;
     }
 
     @Override

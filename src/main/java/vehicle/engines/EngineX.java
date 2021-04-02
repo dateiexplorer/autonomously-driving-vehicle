@@ -7,7 +7,7 @@ public class EngineX implements IElectricEngine {
 
     @Override
     public int consumption() {
-        return 3;
+        return 4;
     }
 
     @Override

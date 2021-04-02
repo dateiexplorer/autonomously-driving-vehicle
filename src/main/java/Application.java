@@ -14,6 +14,8 @@ public class Application {
                 .rightDoors(2).benches(6).wheels(4).brakes(8).gps(2).cameras(2).lidars(4).batteries(4)
                 .ultrasonicSensors(8).build();
 
+        // Gradle needs the first parameter, in production code use the seconds parameter here, because the first
+        // parameter is the program name.
         if (args.length == 1 && args[0].equals("-config")) {
             new VehicleConfiguration().showMenu();
         }
