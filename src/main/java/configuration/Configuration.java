@@ -15,7 +15,7 @@ public enum Configuration {
     public String pathToCameraV1JavaArchive = commonPathToJavaArchive + "camera_v1" + fileSeparator + "build" + fileSeparator + "libs" + fileSeparator + "camera_v1.jar";
     public String pathToCameraV2JavaArchive = commonPathToJavaArchive + "camera_v2" + fileSeparator + "build" + fileSeparator + "libs" + fileSeparator + "camera_v2.jar";
     public String pathToLidarNGJavaArchive = commonPathToJavaArchive + "lidar_ng" + fileSeparator + "build" + fileSeparator + "libs" + fileSeparator + "lidar_ng.jar";
-    public String pathToLidarNXJavaArchive = commonPathToJavaArchive + "lidar_nx" + fileSeparator + "build" + fileSeparator + "libs" + fileSeparator + "lidar_nx.jar";
+    public String pathToLidarXTJavaArchive = commonPathToJavaArchive + "lidar_xt" + fileSeparator + "build" + fileSeparator + "libs" + fileSeparator + "lidar_xt.jar";
 
     public String secretKey = "DHAutoX";
 

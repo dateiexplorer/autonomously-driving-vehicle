@@ -10,10 +10,10 @@ repositories {
 }
 
 task build_jar(type: Jar) {
-    project.archivesBaseName = 'lidar_ng'
+    project.archivesBaseName = 'lidar_xt'
 
     manifest {
-        attributes["Main-Class"] = "LidarNG"
+        attributes["Main-Class"] = "LidarXT"
     }
 
     from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it )} }
